@@ -1,0 +1,4 @@
+squirtle 0
+charmander 1
+pikachu 2
+bulbasaur 3
