@@ -100,4 +100,17 @@ But In case PIP ins't already installed, refer to this link to install it : http
 
 ##Caffe Framework
 
-This part is a bit more complicated. You can follow a step-by-step guide here: [caffe.berkeleyvision.org/installation](http://caffe.berkeleyvision.org/installation.html#prerequisites)
+As this part is very different for each system, you can follow a step-by-step guide here (macOS check below first): [caffe.berkeleyvision.org/installation](http://caffe.berkeleyvision.org/installation.html#prerequisites)
+
+### macOS
+
+#### Homebrew
+For the installation on the macOS, you are going to need the Homebrew Package Manager, and for that you will need the Command line tools. If you already have Xcode installed, you can just run the command ```xcode-select --install```
+
+Or you can download it from [developer.apple](http://developer.apple.com/)
+
+
+To install the Homebrew itself, run the following command:
+``` ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" ```
+
+Now you should be able to follow Caffe's tutorial.
