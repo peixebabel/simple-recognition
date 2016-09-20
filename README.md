@@ -70,23 +70,21 @@ So, let's create a virtual environment (also called a virtualenv). Virtualenv wi
 All you need to do is find a directory in which you want to create the virtualenv; it is recomended that you create it inside your projects folder as it will be part of your project.
 
 On Unix ( Linux and macOS):
-```mkdir folder_name
-cd folder_name
-python3 -m venv virtualenv_name(of your choice)
-```
+``` mkdir folder_name && cd folder_name
+python3 -m venv virtualenv_name(of your choice) ```
 
 On Windows:
+
 ``` C:\Users\Name\projects\folder_name> C:\Python35\python -m venv virtualenv_name(of your choice) ```
 
 Starting the Virtualenv:
 
-Unix
-```$ source myvenv/bin/activate```
+
+``` $ source myvenv/bin/activate```
 
 NOTE: sometimes source might not be available. In those cases try doing this instead:
 
-```
-$ . myvenv/bin/activate```
+``` $ . myvenv/bin/activate```
 
 ## Installing Scikit-learn, the Python Machine learning Framework
 
@@ -96,7 +94,7 @@ This Library requires NumPy and SciPy. To install them, run
 pip3 install -U scikit-learn ```
 
 
-```NOTE 1: if you only have one version of Python installed, you might not need to add the "3" in the command, thus you can use "pip instal.." instead.
+NOTE 1: if you only have one version of Python installed, you might not need to add the "3" in the command, thus you can use "pip instal.." instead.
 
 NOTE 2: If you have a new installation of python, you probably already have PIP installed as well (a Python package installer)
-But In case PIP (Python package installer) ins't already installed, refer to this link to install it : https://pip.pypa.io/en/latest/installing/ ```
+But In case PIP ins't already installed, refer to this link to install it : https://pip.pypa.io/en/latest/installing/ 
