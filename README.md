@@ -13,34 +13,34 @@ First, if you don't have i already you will need to install a version of Python
 It is very likely that you already have Python installed out of the box. To check if you have it installed (and which version it is), open a console and type the following command:
 
 command-line
-'''$ python3 --version
+```$ python3 --version
 Python 3.5.1
-If you have a different 'micro version' of Python installed, e.g. 3.5.0, then you don't have to upgrade. If you don't have Python installed, or if you want a different version, you can install it as follows:'''
+If you have a different 'micro version' of Python installed, e.g. 3.5.0, then you don't have to upgrade. If you don't have Python installed, or if you want a different version, you can install it as follows:```
 
 Debian or Ubuntu
 
 Type this command into your console:
 
 command-line
-'''$ sudo apt-get install python3.5'''
+```$ sudo apt-get install python3.5```
 Fedora (up to 21)
 
 Use this command in your console:
 
 command-line
-'''$ sudo yum install python3'''
+```$ sudo yum install python3```
 Fedora (22+)
 
 Use this command in your console:
 
 command-line
-'''$ sudo dnf install python3'''
+```$ sudo dnf install python3```
 openSUSE
 
 Use this command in your console:
 
 command-line
-'''$ sudo zypper install python3'''
+```$ sudo zypper install python3```
 
 
 ## macOS ( OS X )
@@ -54,8 +54,8 @@ Double click python-3.5.1-macosx10.6.pkg to run the installer.
 Verify the installation was successful by opening the Terminal application and running the python3 command:
 
 command-line
-'''$ python3 --version
-Python 3.5.1'''
+```$ python3 --version
+Python 3.5.1```
 
 ##Windows
 
@@ -78,20 +78,20 @@ So, let's create a virtual environment (also called a virtualenv). Virtualenv wi
 All you need to do is find a directory in which you want to create the virtualenv; it is recomended that you create it inside your projects folder as it will be part of your project.
 
 On Unix ( Linux and macOS):
-'''mkdir folder_name
+```mkdir folder_name
 cd folder_name
 python3 -m venv virtualenv_name(of your choice)
-'''
+```
 
 On Windows:
-''' C:\Users\Name\projects\folder_name> C:\Python35\python -m venv virtualenv_name(of your choice) '''
+``` C:\Users\Name\projects\folder_name> C:\Python35\python -m venv virtualenv_name(of your choice) ```
 
 Starting the Virtualenv:
 
 Unix
-'''$ source myvenv/bin/activate'''
+```$ source myvenv/bin/activate```
 
 NOTE: sometimes source might not be available. In those cases try doing this instead:
 
-'''
-$ . myvenv/bin/activate'''
+```
+$ . myvenv/bin/activate```
