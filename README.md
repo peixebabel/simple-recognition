@@ -6,6 +6,8 @@ Simple Recognition using pokemon images
 
 ####Installation guide on: [INSTALL.md](INSTALL.md)
 
-####Usage Guide : 
+####Guia de Instalação em Portugues em: [INSTALLBR.md](INSTALLBR.md)
+
+####Usage Guide :
 
 - To do

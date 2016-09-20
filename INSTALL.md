@@ -61,7 +61,7 @@ In upcoming steps, you'll be using the Windows Command Line. For now, if you nee
 
 Before we install the necessary packages, we will get you to install an extremely useful tool to help keep your coding environment tidy on your computer. It's possible to skip this step, but it's highly recommended. Starting with the best possible setup will save you a lot of trouble in the future!
 
-So, let's create a virtual environment (also called a virtualenv). Virtualenv will isolate your Python setup on a per-project basis. This means that any changes you make to one website won't affect any others you're also developing. This is similar to the Workspaces for Java developers.
+So, let's create a virtual environment (also called a virtualenv). Virtualenv will isolate your Python setup on a per-project basis. This means that any changes you make to one project won't affect any others you're also developing. This is similar to the Workspaces for Java developers.
 
 All you need to do is find a directory in which you want to create the virtualenv; it is recomended that you create it inside your projects folder as it will be part of your project.
 
