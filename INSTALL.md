@@ -82,8 +82,8 @@ NOTE: sometimes source might not be available. In those cases try doing this ins
 
 ``` $ . virtualenv_name/bin/activate```
 
-This is the recomended place for cloning this repository.
-```git clone https://github.com/peixebabel/simple-recognition.git```
+####This is the recomended place for cloning this repository.
+####```git clone https://github.com/peixebabel/simple-recognition.git```
 
 ## Installing Scikit-learn, the Python Machine learning Framework
 
