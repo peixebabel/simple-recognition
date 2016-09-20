@@ -82,9 +82,11 @@ NOTE: sometimes source might not be available. In those cases try doing this ins
 
 ``` $ . virtualenv_name/bin/activate```
 
+
+
 ## Installing Scikit-learn, the Python Machine learning Framework
 
-This Library requires NumPy and SciPy. To install them, run
+This Library requires NumPy and SciPy. To install them, run:
 
 ``` pip3 install NumPy SciPy
 pip3 install -U scikit-learn ```
@@ -94,3 +96,8 @@ NOTE 1: if you only have one version of Python installed, you might not need to 
 
 NOTE 2: If you have a new installation of python, you probably already have PIP installed as well (a Python package installer)
 But In case PIP ins't already installed, refer to this link to install it : https://pip.pypa.io/en/latest/installing/
+
+
+##Caffe Framework
+
+This part is a bit more complicated. You can follow a step-by-step guide here: [caffe.berkeleyvision.org/installation](http://caffe.berkeleyvision.org/installation.html#prerequisites)
