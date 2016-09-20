@@ -1,4 +1,4 @@
-# ${1:simple-recognition}
+# simple-recognition
 
 Simple Recognition using pokemon images
 
@@ -8,42 +8,35 @@ First, if you don't have i already you will need to install a version of Python
 
 ##Python Installation:
 
-##Linux
+###Linux
 
 It is very likely that you already have Python installed out of the box. To check if you have it installed (and which version it is), open a console and type the following command:
 
 command-line
 ```$ python3 --version
-Python 3.5.1
-If you have a different 'micro version' of Python installed, e.g. 3.5.0, then you don't have to upgrade. If you don't have Python installed, or if you want a different version, you can install it as follows:```
+Python 3.5.1```
 
-Debian or Ubuntu
+If you have a different 'micro version' of Python installed, e.g. 3.5.0, then you don't have to upgrade. If you don't have Python installed, or if you want a different version, you can install it as follows:
 
-Type this command into your console:
-
+####Debian or Ubuntu
 command-line
 ```$ sudo apt-get install python3.5```
-Fedora (up to 21)
 
-Use this command in your console:
-
+####Fedora (up to 21)
 command-line
 ```$ sudo yum install python3```
-Fedora (22+)
 
-Use this command in your console:
-
+####Fedora (22+)
 command-line
 ```$ sudo dnf install python3```
+
 openSUSE
-
-Use this command in your console:
-
 command-line
 ```$ sudo zypper install python3```
 
 
-## macOS ( OS X )
+### macOS ( OS X )
+The macOS comes with python 2.7, but it is a good idea to install Python3.
 
 Before you install Python on OS X, you should ensure your Mac settings allow installing packages that aren't from the App Store. Go to System Preferences (it's in the Applications folder), click "Security & Privacy," and then the "General" tab. If your "Allow apps downloaded from:" is set to "Mac App Store," change it to "Mac App Store and identified developers."
 
@@ -57,7 +50,7 @@ command-line
 ```$ python3 --version
 Python 3.5.1```
 
-##Windows
+###Windows
 
 You can download Python for Windows from the website https://www.python.org/downloads/release/python-351/. After downloading the *.msi file, you should run it (double-click on it) and follow the instructions there. It is important to remember the path (the directory) where you installed Python. It will be needed later!
 
@@ -67,7 +60,7 @@ Don't forget to add Python to the Path
 
 In upcoming steps, you'll be using the Windows Command Line. For now, if you need to type in some commands, go to Start menu → All Programs → Accessories → Command Prompt. (On newer versions of Windows, you might have to search for "Command Prompt" since it's sometimes hidden.)
 
-### In case PIP (Python package installer) ins't already installed, refer to this link to install it : https://pip.pypa.io/en/latest/installing/
+## In case PIP (Python package installer) ins't already installed, refer to this link to install it : https://pip.pypa.io/en/latest/installing/
 
 ##Virtual environment (Optional, but recomended)
 
