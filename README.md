@@ -4,7 +4,7 @@ Simple Recognition using pokemon images
 
 #Tutorial
 
-First, if you don't have i already you will need to install a version of Python
+First, if you don't have i already you will need to install a version of Python.
 
 ##Python Installation:
 
@@ -60,7 +60,6 @@ Don't forget to add Python to the Path
 
 In upcoming steps, you'll be using the Windows Command Line. For now, if you need to type in some commands, go to Start menu → All Programs → Accessories → Command Prompt. (On newer versions of Windows, you might have to search for "Command Prompt" since it's sometimes hidden.)
 
-## In case PIP (Python package installer) ins't already installed, refer to this link to install it : https://pip.pypa.io/en/latest/installing/
 
 ##Virtual environment (Optional, but recomended)
 
@@ -88,3 +87,16 @@ NOTE: sometimes source might not be available. In those cases try doing this ins
 
 ```
 $ . myvenv/bin/activate```
+
+## Installing Scikit-learn, the Python Machine learning Framework
+
+This Library requires NumPy and SciPy. To install them, run
+
+``` pip3 install NumPy SciPy
+pip3 install -U scikit-learn ```
+
+
+```NOTE 1: if you only have one version of Python installed, you might not need to add the "3" in the command, thus you can use "pip instal.." instead.
+
+NOTE 2: If you have a new installation of python, you probably already have PIP installed as well (a Python package installer)
+But In case PIP (Python package installer) ins't already installed, refer to this link to install it : https://pip.pypa.io/en/latest/installing/ ```
