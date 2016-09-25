@@ -66,11 +66,13 @@ So, let's create a virtual environment (also called a virtualenv). Virtualenv wi
 All you need to do is find a directory in which you want to create the virtualenv; it is recomended that you create it inside your projects folder as it will be part of your project.
 
 ###On Unix ( Linux and macOS):
+
 ```
 pip3 install virtualenv
 mkdir folder_name && cd folder_name
 python3 -m venv virtualenv_name(of your choice)
 ```
+
 NOTE 1: if you only have one version of Python installed, you might not need to add the "3" in the command, thus you can use "pip instal.." instead.
 
 NOTE 2: If you have a new installation of python, you probably already have PIP installed as well (a Python package installer)
@@ -93,7 +95,7 @@ $ . virtualenv_name/bin/activate
 
 
 ###On Windows:
-First install venv: 
+First, install venv: 
 ```
 C:\Users\me\%userprofile%\Python35-32\Scripts\pip.exe install virtualenv
 ```
@@ -102,12 +104,12 @@ Now, assuming you are going to create a folder inside C:\Users\me\projects\Virtu
 
 Creating VEnv
 ```
-C:\Users\me\%userprofile%\Python35-32\Scripts\virtualenv.exe C:\Users\me\%userprofile%\VirtualEnv\recogVirtual
+C:\Users\me\%userprofile%\Python35-32\Scripts\virtualenv.exe C:\Users\me\%userprofile%\projects\VirtualEnv\recogVirtual
 ```
 
 Activation: 
 ```
-C:\Users\me\%userprofile%\VirtualEnv\recogVirtual\Scripts\activate
+C:\Users\me\%userprofile%\projetcs\VirtualEnv\recogVirtual\Scripts\activate
 ```
 
 
@@ -134,6 +136,7 @@ Or you can download it from [developer.apple](http://developer.apple.com/)
 
 
 To install the Homebrew itself, run the following command:
+
 ``` ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" ```
 
 Now you should be able to follow Caffe's tutorial.
