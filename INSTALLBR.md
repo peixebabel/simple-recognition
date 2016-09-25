@@ -10,7 +10,7 @@ Primeiramente, caso já não tenha, irá precisar instalar uma versão da lingua
 
 command-line
 ```$ python3 --version
-Python 3.5.1```
+```Resultado : Python 3.5.1
 
 Se você tem uma 'micro versão' diferente instalada ex: 3.5.0 no lugar da 3.5.1, você não precisa atualizar.
 Mas se você não tem python ou tem uma versão diferente, como 2.7, siga os passos para seu sistema:
@@ -42,7 +42,7 @@ Baixe o instalador Python do site oficial da linguagem:  https://www.python.org/
 Verifique se a instalação foi bem scedida abrindo o Terminal e digitando:
 command-line
 ```$ python3 --version
-Python 3.5.1```
+``` Resultado: Python 3.5.1`
 
 ###Windows
 
@@ -60,13 +60,16 @@ Antes de instalarmos qualquer pacote, podemos usar uma ferramenta muito útil pa
 
 Você precisa escolher o diretório onde irá desenvolver seu projeto. É recomendável que seja dentro de sua pasta de projetos, e que seu repositório GIT esteja dentro dela (vamos chegar nisso depois).
 
-Unix - Linux and macOS:
-``` mkdir noma_pasta && cd nome_pasta
+###Unix :
+``` 
+pip3 install virtualenv
+mkdir noma_pasta && cd nome_pasta
 python3 -m venv virtualenv_nome(nome de sua escolha) ```
 
-Windows:
 
-``` C:\Users\Name\projects\nome_pasta> C:\Python35\python -m venv virtualenv_nome(nome de sua escolha) ```
+NOTA 1: Se você tem apenas uma vesão de Python, você não percisará do "3" no comando. então pode usar "pip instal..." no lugar.
+
+NOTA 2: Caso você esteja usando uma versão antiga de Python que não tenha PIP instalado, você pode baixa-lo aqui: https://pip.pypa.io/en/latest/installing/
 
 Iniciando o Virtualenv:
 
@@ -76,6 +79,26 @@ Iniciando o Virtualenv:
 NOTA: As vezes "source" pode não estar dispoível, nesse caso, tente o seguinte:
 
 ``` $ . virtualenv_nome/bin/activate```
+
+
+
+###Windows:
+Primeiro, instale o virtualenv 
+```
+C:\Users\me\%userprofile%\Python35-32\Scripts\pip.exe install virtualenv
+```
+
+Assumindo que você irá criar uma pasta em : C:\Users\me\projetos\VirtualEnv\recogVirtual, 
+
+Creiando o VEnv
+```
+C:\Users\me\%userprofile%\Python35-32\Scripts\virtualenv.exe C:\Users\me\%userprofile%\projetos\VirtualEnv\recogVirtual
+```
+
+Ativação: 
+```
+C:\Users\me\%userprofile%\projetos\VirtualEnv\recogVirtual\Scripts\activate
+```
 
 
 ####É aqui que você deve fazer a clonagem deste repositório git.
@@ -90,18 +113,11 @@ Esta biblioteca depende de NumPy e SciPy. para instala-las, digite:
 pip3 install -U scikit-learn ```
 
 
-NOTA 1: Se você tem apenas uma vesão de Python, você não percisará do "3" no comando. então pode usar "pip instal..." no lugar.
-
-NOTA 2: Caso você esteja usando uma versão antiga de Python que não tenha PIP instalado, você pode baixa-lo aqui: https://pip.pypa.io/en/latest/installing/
-
-
 ##Caffe Framework
 
 Esta parte é bem diferente pra cada sistema, então você pode seguir um guia passo a passo aqui (Usuario de macOS: Chequem a baixo primeiro): [caffe.berkeleyvision.org/installation](http://caffe.berkeleyvision.org/installation.html#prerequisites)
 
-### macOS
-
-#### Homebrew
+### macOS -> Homebrew
 Para a instalação no macOS, você precisará do Homebrew Package Manager.
 Para isso, você precisa instalar a Command line tools. Caso tenha o Xcode instalado, digite no terminal : ```xcode-select --install```
 
