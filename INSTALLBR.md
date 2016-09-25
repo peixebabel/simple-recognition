@@ -61,10 +61,12 @@ Antes de instalarmos qualquer pacote, podemos usar uma ferramenta muito útil pa
 Você precisa escolher o diretório onde irá desenvolver seu projeto. É recomendável que seja dentro de sua pasta de projetos, e que seu repositório GIT esteja dentro dela (vamos chegar nisso depois).
 
 ###Unix :
+
 ``` 
 pip3 install virtualenv
 mkdir noma_pasta && cd nome_pasta
-python3 -m venv virtualenv_nome(nome de sua escolha) ```
+python3 -m venv virtualenv_nome(nome de sua escolha)
+```
 
 
 NOTA 1: Se você tem apenas uma vesão de Python, você não percisará do "3" no comando. então pode usar "pip instal..." no lugar.
@@ -74,11 +76,13 @@ NOTA 2: Caso você esteja usando uma versão antiga de Python que não tenha PIP
 Iniciando o Virtualenv:
 
 
-``` $ source virtualenv_nome/bin/activate```
+``` $ source virtualenv_nome/bin/activate
+```
 
 NOTA: As vezes "source" pode não estar dispoível, nesse caso, tente o seguinte:
 
-``` $ . virtualenv_nome/bin/activate```
+``` $ . virtualenv_nome/bin/activate
+```
 
 
 
