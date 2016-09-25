@@ -126,9 +126,8 @@ pip3 install -U scikit-learn ```
 
 As this part is very different for each system, you can follow a step-by-step guide here (macOS check below first): [caffe.berkeleyvision.org/installation](http://caffe.berkeleyvision.org/installation.html#prerequisites)
 
-### macOS
+### macOS -> Homebrew
 
-#### Homebrew
 For the installation on the macOS, you are going to need the Homebrew Package Manager, and for that you will need the Command line tools. If you already have Xcode installed, you can just run the command ```xcode-select --install```
 
 Or you can download it from [developer.apple](http://developer.apple.com/)
