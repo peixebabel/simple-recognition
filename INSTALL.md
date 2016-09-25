@@ -65,11 +65,17 @@ So, let's create a virtual environment (also called a virtualenv). Virtualenv wi
 
 All you need to do is find a directory in which you want to create the virtualenv; it is recomended that you create it inside your projects folder as it will be part of your project.
 
-On Unix ( Linux and macOS):
+###On Unix ( Linux and macOS):
 ```
+pip3 install virtualenv
 mkdir folder_name && cd folder_name
 python3 -m venv virtualenv_name(of your choice)
 ```
+NOTE 1: if you only have one version of Python installed, you might not need to add the "3" in the command, thus you can use "pip instal.." instead.
+
+NOTE 2: If you have a new installation of python, you probably already have PIP installed as well (a Python package installer)
+But In case PIP ins't already installed, refer to this link to install it : https://pip.pypa.io/en/latest/installing/
+
 
 Starting the Virtualenv:
 
@@ -84,13 +90,15 @@ NOTE: sometimes source might not be available. In those cases try doing this ins
 $ . virtualenv_name/bin/activate
 ```
 
-On Windows:
-Assuming you are going to create a folder inside C:\Users\me\projects\VirtualEnv\recogVirtual, 
 
-Install venv: 
+
+###On Windows:
+First install venv: 
 ```
 C:\Users\me\%userprofile%\Python35-32\Scripts\pip.exe install virtualenv
 ```
+
+Now, assuming you are going to create a folder inside C:\Users\me\projects\VirtualEnv\recogVirtual, 
 
 Creating VEnv
 ```
@@ -103,8 +111,6 @@ C:\Users\me\%userprofile%\VirtualEnv\recogVirtual\Scripts\activate
 ```
 
 
-
-
 ####This is the recomended place for cloning this repository.
 ####```git clone https://github.com/peixebabel/simple-recognition.git```
 
@@ -114,12 +120,6 @@ This Library requires NumPy and SciPy. To install them, run:
 
 ``` pip3 install NumPy SciPy
 pip3 install -U scikit-learn ```
-
-
-NOTE 1: if you only have one version of Python installed, you might not need to add the "3" in the command, thus you can use "pip instal.." instead.
-
-NOTE 2: If you have a new installation of python, you probably already have PIP installed as well (a Python package installer)
-But In case PIP ins't already installed, refer to this link to install it : https://pip.pypa.io/en/latest/installing/
 
 
 ##Caffe Framework
