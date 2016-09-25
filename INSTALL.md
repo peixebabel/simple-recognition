@@ -10,7 +10,7 @@ It is very likely that you already have Python installed out of the box. To chec
 
 command-line
 ```$ python3 --version
-Python 3.5.1```
+``` Output >> Python 3.5.1
 
 If you have a different 'micro version' of Python installed, e.g. 3.5.0, then you don't have to upgrade. If you don't have Python installed, or if you want a different version, you can install it as follows:
 
@@ -43,8 +43,8 @@ Double click python-3.5.1-macosx10.6.pkg to run the installer.
 Verify the installation was successful by opening the Terminal application and running the python3 command:
 
 command-line
-```$ python3 --version
-Python 3.5.1```
+```$ python3 --version```
+Output>> Python 3.5.1
 
 ###Windows
 
@@ -66,21 +66,44 @@ So, let's create a virtual environment (also called a virtualenv). Virtualenv wi
 All you need to do is find a directory in which you want to create the virtualenv; it is recomended that you create it inside your projects folder as it will be part of your project.
 
 On Unix ( Linux and macOS):
-``` mkdir folder_name && cd folder_name
-python3 -m venv virtualenv_name(of your choice) ```
-
-On Windows:
-
-``` C:\Users\Name\projects\folder_name> C:\Python35\python -m venv virtualenv_name(of your choice) ```
+```
+mkdir folder_name && cd folder_name
+python3 -m venv virtualenv_name(of your choice)
+```
 
 Starting the Virtualenv:
 
 
-``` $ source virtualenv_name/bin/activate```
+``` 
+$ source virtualenv_name/bin/activate
+```
 
 NOTE: sometimes source might not be available. In those cases try doing this instead:
 
-``` $ . virtualenv_name/bin/activate```
+``` 
+$ . virtualenv_name/bin/activate
+```
+
+On Windows:
+Assuming you are going to create a folder inside C:\Users\me\projects\VirtualEnv\recogVirtual, 
+
+Install venv: 
+```
+C:\Users\me\%userprofile%\Python35-32\Scripts\pip.exe install virtualenv
+```
+
+Creating VEnv
+```
+C:\Users\me\%userprofile%\Python35-32\Scripts\virtualenv.exe C:\Users\me\%userprofile%\VirtualEnv\recogVirtual
+```
+
+Activation: 
+```
+C:\Users\me\%userprofile%\VirtualEnv\recogVirtual\Scripts\activate
+```
+
+
+
 
 ####This is the recomended place for cloning this repository.
 ####```git clone https://github.com/peixebabel/simple-recognition.git```
