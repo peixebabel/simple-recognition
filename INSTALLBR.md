@@ -89,19 +89,19 @@ NOTA: As vezes "source" pode não estar dispoível, nesse caso, tente o seguinte
 ###Windows:
 Primeiro, instale o virtualenv 
 ```
-C:\Users\me\%userprofile%\Python35-32\Scripts\pip.exe install virtualenv
+C:\%userprofile%\Python35-32\Scripts\pip.exe install virtualenv
 ```
 
 Assumindo que você irá criar uma pasta em : C:\Users\me\projetos\VirtualEnv\recogVirtual, 
 
 Creiando o VEnv
 ```
-C:\Users\me\%userprofile%\Python35-32\Scripts\virtualenv.exe C:\Users\me\%userprofile%\projetos\VirtualEnv\recogVirtual
+C:\%userprofile%\Python35-32\Scripts\virtualenv.exe C:\Users\me\%userprofile%\projetos\VirtualEnv\recogVirtual
 ```
 
 Ativação: 
 ```
-C:\Users\me\%userprofile%\projetos\VirtualEnv\recogVirtual\Scripts\activate
+C:\%userprofile%\projetos\VirtualEnv\recogVirtual\Scripts\activate
 ```
 
 
