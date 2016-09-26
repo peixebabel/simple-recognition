@@ -97,19 +97,19 @@ $ . virtualenv_name/bin/activate
 ###On Windows:
 First, install venv: 
 ```
-C:\Users\me\%userprofile%\Python35-32\Scripts\pip.exe install virtualenv
+C:\%userprofile%\Python35-32\Scripts\pip.exe install virtualenv
 ```
 
 Now, assuming you are going to create a folder inside C:\Users\me\projects\VirtualEnv\recogVirtual, 
 
 Creating VEnv
 ```
-C:\Users\me\%userprofile%\Python35-32\Scripts\virtualenv.exe C:\Users\me\%userprofile%\projects\VirtualEnv\recogVirtual
+C:\%userprofile%\Python35-32\Scripts\virtualenv.exe C:\Users\me\%userprofile%\projects\VirtualEnv\recogVirtual
 ```
 
 Activation: 
 ```
-C:\Users\me\%userprofile%\projetcs\VirtualEnv\recogVirtual\Scripts\activate
+C:\%userprofile%\projetcs\VirtualEnv\recogVirtual\Scripts\activate
 ```
 
 
