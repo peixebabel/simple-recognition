@@ -100,11 +100,11 @@ First, install venv:
 C:\%userprofile%\Python35-32\Scripts\pip.exe install virtualenv
 ```
 
-Now, assuming you are going to create a folder inside C:\Users\me\projects\VirtualEnv\recogVirtual, 
+Now, assuming you are going to create a folder inside C:\%userprofile%\projects\VirtualEnv\recogVirtual, 
 
 Creating VEnv
 ```
-C:\%userprofile%\Python35-32\Scripts\virtualenv.exe C:\Users\me\%userprofile%\projects\VirtualEnv\recogVirtual
+C:\%userprofile%\Python35-32\Scripts\virtualenv.exe C:\%userprofile%\projects\VirtualEnv\recogVirtual
 ```
 
 Activation: 
