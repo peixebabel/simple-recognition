@@ -92,11 +92,12 @@ Primeiro, instale o virtualenv
 C:\%userprofile%\Python35-32\Scripts\pip.exe install virtualenv
 ```
 
-Assumindo que você irá criar uma pasta em : C:\Users\me\projetos\VirtualEnv\recogVirtual, 
+Assumindo que você irá criar uma pasta em : C:\%userprofile%\projetos\VirtualEnv\recogVirtual, 
 
 Creiando o VEnv
 ```
-C:\%userprofile%\Python35-32\Scripts\virtualenv.exe C:\Users\me\%userprofile%\projetos\VirtualEnv\recogVirtual
+C:\%userprofile%\Python35-32\Scripts\virtualenv.exe 
+C:\%userprofile%\projetos\VirtualEnv\recogVirtual
 ```
 
 Ativação: 
