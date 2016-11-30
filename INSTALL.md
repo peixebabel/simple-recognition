@@ -1,6 +1,6 @@
 #Installation Tutorial
 
-First, if you don't have i already you will need to install a version of Python.
+First, if you don't have it already, you will need to install a version of Python.
 
 ##Python Installation:
 
@@ -36,7 +36,11 @@ The macOS comes with python 2.7, but it is a good idea to install Python3.
 
 Before you install Python on OS X, you should ensure your Mac settings allow installing packages that aren't from the App Store. Go to System Preferences (it's in the Applications folder), click "Security & Privacy," and then the "General" tab. If your "Allow apps downloaded from:" is set to "Mac App Store," change it to "Mac App Store and identified developers."
 
-You need to go to the website https://www.python.org/downloads/release/python-351/ and download the Python installer:
+If you already have homebrew installed, just run the command:
+command-line
+```$ brew install python3```
+
+Otherwise, you will need to install it manually. Go to the website https://www.python.org/downloads/release/python-351/ and download the Python installer:
 
 Download the Mac OS X 64-bit/32-bit installer file,
 Double click python-3.5.1-macosx10.6.pkg to run the installer.
