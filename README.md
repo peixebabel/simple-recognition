@@ -2,12 +2,12 @@
 
 Simple Recognition using pokemon images
 
-#Tutorial
+# Tutorial
 
-####Installation guide on: [INSTALL.md](INSTALL.md)
+#### Installation guide on: [INSTALL.md](INSTALL.md)
 
-####Guia de Instalação em Portugues em: [INSTALLBR.md](INSTALLBR.md)
+#### Guia de Instalação em Portugues em: [INSTALLBR.md](INSTALLBR.md)
 
-####Usage Guide :
+#### Usage Guide :
 
 - To do
