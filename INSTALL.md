@@ -1,32 +1,35 @@
-#Installation Tutorial
+# Installation Tutorial
 
 First, if you don't have it already, you will need to install a version of Python.
 
-##Python Installation:
+## Python Installation:
 
-###Linux
+### Linux
 
 It is very likely that you already have Python installed out of the box. To check if you have it installed (and which version it is), open a console and type the following command:
 
 command-line
-```$ python3 --version
-``` Output >> Python 3.5.1
+```bash
+$ python3 --version
+```
+
+Output >> Python 3.5.1
 
 If you have a different 'micro version' of Python installed, e.g. 3.5.0, then you don't have to upgrade. If you don't have Python installed, or if you want a different version, you can install it as follows:
 
-####Debian or Ubuntu
+#### Debian or Ubuntu
 command-line
 ```$ sudo apt-get install python3.5```
 
-####Fedora (up to 21)
+#### Fedora (up to 21)
 command-line
 ```$ sudo yum install python3```
 
-####Fedora (22+)
+#### Fedora (22+)
 command-line
 ```$ sudo dnf install python3```
 
-openSUSE
+#### openSUSE
 command-line
 ```$ sudo zypper install python3```
 
@@ -50,7 +53,7 @@ command-line
 ```$ python3 --version```
 Output>> Python 3.5.1
 
-###Windows
+### Windows
 
 You can download Python for Windows from the website https://www.python.org/downloads/release/python-351/. After downloading the *.msi file, you should run it (double-click on it) and follow the instructions there. It is important to remember the path (the directory) where you installed Python. It will be needed later!
 
@@ -61,7 +64,7 @@ Don't forget to add Python to the Path
 In upcoming steps, you'll be using the Windows Command Line. For now, if you need to type in some commands, go to Start menu → All Programs → Accessories → Command Prompt. (On newer versions of Windows, you might have to search for "Command Prompt" since it's sometimes hidden.)
 
 
-##Virtual environment (Optional, but recomended)
+## Virtual environment (Optional, but recomended)
 
 Before we install the necessary packages, we will get you to install an extremely useful tool to help keep your coding environment tidy on your computer. It's possible to skip this step, but it's highly recommended. Starting with the best possible setup will save you a lot of trouble in the future!
 
@@ -69,7 +72,7 @@ So, let's create a virtual environment (also called a virtualenv). Virtualenv wi
 
 All you need to do is find a directory in which you want to create the virtualenv; it is recomended that you create it inside your projects folder as it will be part of your project.
 
-###On Unix ( Linux and macOS):
+### On Unix ( Linux and macOS):
 
 ```
 pip3 install virtualenv
@@ -98,7 +101,7 @@ $ . virtualenv_name/bin/activate
 
 
 
-###On Windows:
+### On Windows:
 First, install venv: 
 ```
 C:\%userprofile%\Python35-32\Scripts\pip.exe install virtualenv
@@ -117,8 +120,8 @@ C:\%userprofile%\projetcs\VirtualEnv\recogVirtual\Scripts\activate
 ```
 
 
-####This is the recomended place for cloning this repository.
-####```git clone https://github.com/peixebabel/simple-recognition.git```
+#### This is the recomended place for cloning this repository.
+#### ```git clone https://github.com/peixebabel/simple-recognition.git```
 
 ## Installing Scikit-learn, the Python Machine learning Framework
 
@@ -128,7 +131,7 @@ This Library requires NumPy and SciPy. To install them, run:
 pip3 install -U scikit-learn ```
 
 
-##Caffe Framework
+## Caffe Framework
 
 As this part is very different for each system, you can follow a step-by-step guide here (macOS check below first): [caffe.berkeleyvision.org/installation](http://caffe.berkeleyvision.org/installation.html#prerequisites)
 
