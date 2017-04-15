@@ -1,33 +1,33 @@
-#Tutorial de Instalação
+# Tutorial de Instalação
 
 Primeiramente, caso já não tenha, irá precisar instalar uma versão da linguagem Python,
 
 ## Instalação do Python :
 
-###Linux
+### Linux
 
 É bem provavel que sua distribuição de Linux já tenha Python instalado. Para checar se tem (e qual a versão ele é), abra o terminal e digite o seguinte comando:
 
 command-line
-```$ python3 --version
-```Resultado : Python 3.5.1
+```$ python3 --version```
+Resultado : Python 3.5.1
 
 Se você tem uma 'micro versão' diferente instalada ex: 3.5.0 no lugar da 3.5.1, você não precisa atualizar.
 Mas se você não tem python ou tem uma versão diferente, como 2.7, siga os passos para seu sistema:
 
-####Debian or Ubuntu
+#### Debian or Ubuntu
 command-line
 ```$ sudo apt-get install python3.5```
 
-####Fedora (até versão 21)
+#### Fedora (até versão 21)
 command-line
 ```$ sudo yum install python3```
 
-####Fedora (22+)
+#### Fedora (22+)
 command-line
 ```$ sudo dnf install python3```
 
-openSUSE
+#### openSUSE
 command-line
 ```$ sudo zypper install python3```
 
@@ -41,10 +41,11 @@ Baixe o instalador Python do site oficial da linguagem:  https://www.python.org/
 
 Verifique se a instalação foi bem scedida abrindo o Terminal e digitando:
 command-line
-```$ python3 --version
-``` Resultado: Python 3.5.1`
+`$ python3 --version`
+Resultado: Python 3.5.1`
 
-###Windows
+
+### Windows
 
 Você pode baixar Python para Windoes do website oficial:
 https://www.python.org/downloads/release/python-351/. Durante a instalação, lembre-se do diretório onde ela está sendo feita, pois irá precisar mais tarde.
@@ -60,7 +61,7 @@ Antes de instalarmos qualquer pacote, podemos usar uma ferramenta muito útil pa
 
 Você precisa escolher o diretório onde irá desenvolver seu projeto. É recomendável que seja dentro de sua pasta de projetos, e que seu repositório GIT esteja dentro dela (vamos chegar nisso depois).
 
-###Unix :
+### Unix :
 
 ``` 
 pip3 install virtualenv
@@ -106,8 +107,8 @@ C:\%userprofile%\projetos\VirtualEnv\recogVirtual\Scripts\activate
 ```
 
 
-####É aqui que você deve fazer a clonagem deste repositório git.
-####```git clone https://github.com/peixebabel/simple-recognition.git```
+#### É aqui que você deve fazer a clonagem deste repositório git.
+#### ```git clone https://github.com/peixebabel/simple-recognition.git```
 
 
 ## Instalando o Scikit-learn, o Framework de Python para Machine Learning
@@ -118,7 +119,7 @@ Esta biblioteca depende de NumPy e SciPy. para instala-las, digite:
 pip3 install -U scikit-learn ```
 
 
-##Caffe Framework
+## Caffe Framework
 
 Esta parte é bem diferente pra cada sistema, então você pode seguir um guia passo a passo aqui (Usuario de macOS: Chequem a baixo primeiro): [caffe.berkeleyvision.org/installation](http://caffe.berkeleyvision.org/installation.html#prerequisites)
 
